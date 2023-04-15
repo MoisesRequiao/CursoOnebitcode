@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cadastro da Liga dos Astronautas</title>
+  </head>
+  <body>
+    <h3>Cadastro da Liga dos austronautas</h3>
+    <form action>
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" /> -
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <br />
+      <div>
+        <label for="birthday">Data de nascimento:</label>
+        <input type="date" name="birthday" id="birthday" />
+
+        <label for="photo">Foto:</label>
+        <input type="file" name="photo" id="photo" />
+      </div>
+      <br />
+      <div>
+        <label for="nationality">Nacionalidade:</label>
+        <select name="nationality" id="nationality">
+          <option value="russian">Russa</option>
+          <option value="american">Americana</option>
+          <option value="Brasilian">Brasileira</option>
+        </select>
+        <br />
+        Genero
+        <label for="female">F</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="male" value="male" />
+      </div>
+      <div>
+        <br />
+        Suas pricipais qualidades:
+        <label for="int">Inteligência</label>
+        <input type="checkbox" name="int" /> |
+        <label for="res">Resiliencia</label>
+        <input type="checkbox" name="res" id="res" /> |
+        <label for="physic">Preparo fisico</label>
+        <input type="checkbox" name="physic" id="physic" /> |
+        <label for="edu">Educação</label>
+        <input type="checkbox" name="edu" id="edu" />
+      </div>
+
+      <div>
+        <textarea name="description" id="description"></textarea>
+      </div>
+
+      <div><input type="submit" value="Criar" /></div>
+    </form>
+  </body>
+</html>
