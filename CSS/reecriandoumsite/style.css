@@ -1,0 +1,17 @@
+body {
+  background-color: rosybrown;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+li {
+  color: purple;
+}
+
+h2 {
+  background-color: yellow;
+  border: 2px solid;
+}
+#astronomy-class{color #e74c3c}
